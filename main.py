@@ -1,12 +1,13 @@
 from tkinter import *
 import os.path
 import pickle
+from PIL import Image
 root = Tk()
 # Creating the screen Variable
 screen = 1
 
 # Set the Icon
-icon = PhotoImage(file="images\icon.png")
+icon = PhotoImage(file=f"{os.getcwd()}/images/icon.png")
 root.iconphoto(FALSE, icon)
 
 # Change the Background Colour
@@ -2342,107 +2343,107 @@ def back_from_order_list():
 
 # Photos for the first screen
 
-onion = PhotoImage(file="images\onion.png")
-carrot = PhotoImage(file="images\carrot.png")
-potato = PhotoImage(file="images\potato.png")
-radish = PhotoImage(file="images/radish.png")
-cabbage = PhotoImage(file="images\cabbage.png")
-tomato = PhotoImage(file="images/tomato.png")
+onion = PhotoImage(file=f"{os.getcwd()}/images/onion.png")
+carrot = PhotoImage(file=f"{os.getcwd()}/images/carrot.png")
+potato = PhotoImage(file=f"{os.getcwd()}/images/potato.png")
+radish = PhotoImage(file=f"{os.getcwd()}/images/radish.png")
+cabbage = PhotoImage(file=f"{os.getcwd()}/images/cabbage.png")
+tomato = PhotoImage(file=f"{os.getcwd()}/images/tomato.png")
 
 # Photos for the Second screen
-eggplant = PhotoImage(file="images\eggplant.png")
-bittergourd = PhotoImage(file="images\Bitter Gourd.png")
-ladyfingers = PhotoImage(file="images\lady finger.png")
-bellpeppers = PhotoImage(file="images\capsicum.png")
-egg = PhotoImage(file="images\eggs.png")
-bread = PhotoImage(file="images/bread.png")
+eggplant = PhotoImage(file=f"{os.getcwd()}/images/eggplant.png")
+bittergourd = PhotoImage(file=f"{os.getcwd()}/images/Bitter Gourd.png")
+ladyfingers = PhotoImage(file=f"{os.getcwd()}/images/lady finger.png")
+bellpeppers = PhotoImage(file=f"{os.getcwd()}/images/capsicum.png")
+egg = PhotoImage(file=f"{os.getcwd()}/images/eggs.png")
+bread = PhotoImage(file=f"{os.getcwd()}/images/bread.png")
 
 # Photos for the Third screen
-cauliflower = PhotoImage(file="images\cauliflower.png")
-lettuce = PhotoImage(file="images\lettuce.png")
-broccoli = PhotoImage(file="images/broccoli.png")
-corn = PhotoImage(file="images\Corn.png")
-milk = PhotoImage(file="images\Milk.png")
-sugar = PhotoImage(file="images\Sugar.png")
+cauliflower = PhotoImage(file=f"{os.getcwd()}/images/cauliflower.png")
+lettuce = PhotoImage(file=f"{os.getcwd()}/images/lettuce.png")
+broccoli = PhotoImage(file=f"{os.getcwd()}/images/broccoli.png")
+corn = PhotoImage(file=f"{os.getcwd()}/images/Corn.png")
+milk = PhotoImage(file=f"{os.getcwd()}/images/Milk.png")
+sugar = PhotoImage(file=f"{os.getcwd()}/images/Sugar.png")
 
 # Photos for the Fourth screen
-beetroot = PhotoImage(file="images/beetroot.png")
-cheese = PhotoImage(file="images\cheese.png")
-butter = PhotoImage(file="images/butter.png")
-honey = PhotoImage(file="images\honey.png")
-pepper = PhotoImage(file="images\pepper.png")
-coconutmilk = PhotoImage(file="images\coconutmilk.png")
+beetroot = PhotoImage(file=f"{os.getcwd()}/images/beetroot.png")
+cheese = PhotoImage(file=f"{os.getcwd()}/images/cheese.png")
+butter = PhotoImage(file=f"{os.getcwd()}/images/butter.png")
+honey = PhotoImage(file=f"{os.getcwd()}/images/honey.png")
+pepper = PhotoImage(file=f"{os.getcwd()}/images/pepper.png")
+coconutmilk = PhotoImage(file=f"{os.getcwd()}/images/coconutmilk.png")
 
 # Photos for the Fifth screen
-almonds = PhotoImage(file="images/almonds.png")
-coconutoil = PhotoImage(file="images\coconutoil.png")
-jaggery = PhotoImage(file="images\jaggery.png")
-coconutwater = PhotoImage(file="images\coconutwater.png")
-cocoapowder = PhotoImage(file="images\cocoapowder.png")
-curd = PhotoImage(file="images\curd.png")
+almonds = PhotoImage(file=f"{os.getcwd()}/images/almonds.png")
+coconutoil = PhotoImage(file=f"{os.getcwd()}/images/coconutoil.png")
+jaggery = PhotoImage(file=f"{os.getcwd()}/images/jaggery.png")
+coconutwater = PhotoImage(file=f"{os.getcwd()}/images/coconutwater.png")
+cocoapowder = PhotoImage(file=f"{os.getcwd()}/images/cocoapowder.png")
+curd = PhotoImage(file=f"{os.getcwd()}/images/curd.png")
 
 # Photos for the Sixth screen
-greentea = PhotoImage(file="images\greentea.png")
-jaggerypowder = PhotoImage(file="images\jaggerypowder.png")
-salt = PhotoImage(file="images\salt.png")
-tarmarind = PhotoImage(file="images/tarmarind.png")
-peanutbutter = PhotoImage(file="images\peanutbutter.png")
-ghee = PhotoImage(file="images\ghee.png")
+greentea = PhotoImage(file=f"{os.getcwd()}/images/greentea.png")
+jaggerypowder = PhotoImage(file=f"{os.getcwd()}/images/jaggerypowder.png")
+salt = PhotoImage(file=f"{os.getcwd()}/images/salt.png")
+tarmarind = PhotoImage(file=f"{os.getcwd()}/images/tarmarind.png")
+peanutbutter = PhotoImage(file=f"{os.getcwd()}/images/peanutbutter.png")
+ghee = PhotoImage(file=f"{os.getcwd()}/images/ghee.png")
 
-back = PhotoImage(file="images/back.PNG")
-add = PhotoImage(file="images/addition.png")
-subtract = PhotoImage(file="images\minus.png")
-cash = PhotoImage(file="images/rupee.png")
-search_image = PhotoImage(file="images\search.png")
+back = PhotoImage(file=f"{os.getcwd()}/images/back.PNG")
+add = PhotoImage(file=f"{os.getcwd()}/images/addition.png")
+subtract = PhotoImage(file=f"{os.getcwd()}/images/minus.png")
+cash = PhotoImage(file=f"{os.getcwd()}/images/rupee.png")
+search_image = PhotoImage(file=f"{os.getcwd()}/images/search.png")
 ###########################################
 
 # Photos for the first screen
-onion_image = PhotoImage(file="images\onion_image.png")
-carrot_image = PhotoImage(file="images\carrot_image.png")
-potato_image = PhotoImage(file="images\potato_image.png")
-radish_image = PhotoImage(file="images/radish_image.png")
-cabbage_image = PhotoImage(file="images\cabbage_image.png")
-tomato_image = PhotoImage(file="images/tomato_image.png")
+onion_image = PhotoImage(file=f"{os.getcwd()}/images/onion_image.png")
+carrot_image = PhotoImage(file=f"{os.getcwd()}/images/carrot_image.png")
+potato_image = PhotoImage(file=f"{os.getcwd()}/images/potato_image.png")
+radish_image = PhotoImage(file=f"{os.getcwd()}/images/radish_image.png")
+cabbage_image = PhotoImage(file=f"{os.getcwd()}/images/cabbage_image.png")
+tomato_image = PhotoImage(file=f"{os.getcwd()}/images/tomato_image.png")
 
 # Photos for the Second screen
-eggplant_image = PhotoImage(file="images\eggplant_image.png")
-bitter_gourd_image = PhotoImage(file="images\Bitter Gourd_image.png")
-lady_fingers_image = PhotoImage(file="images\lady finger_image.png")
-bell_peppers_image = PhotoImage(file="images\capsicum_image.png")
-egg_image = PhotoImage(file="images\eggs_image.png")
-bread_image = PhotoImage(file="images/bread_image.png")
+eggplant_image = PhotoImage(file=f"{os.getcwd()}/images/eggplant_image.png")
+bitter_gourd_image = PhotoImage(file=f"{os.getcwd()}/images/Bitter Gourd_image.png")
+lady_fingers_image = PhotoImage(file=f"{os.getcwd()}/images/lady finger_image.png")
+bell_peppers_image = PhotoImage(file=f"{os.getcwd()}/images/capsicum_image.png")
+egg_image = PhotoImage(file=f"{os.getcwd()}/images/eggs_image.png")
+bread_image = PhotoImage(file=f"{os.getcwd()}/images/bread_image.png")
 
 # Photos for the Third screen
-cauliflower_image = PhotoImage(file="images\cauliflower_image.png")
-lettuce_image = PhotoImage(file="images\lettuce_image.png")
-broccoli_image = PhotoImage(file="images/broccoli_image.png")
-corn_image = PhotoImage(file="images\Corn_image.png")
-milk_image = PhotoImage(file="images\Milk_image.png")
-sugar_image = PhotoImage(file="images\Sugar_image.png")
+cauliflower_image = PhotoImage(file=f"{os.getcwd()}/images/cauliflower_image.png")
+lettuce_image = PhotoImage(file=f"{os.getcwd()}/images/lettuce_image.png")
+broccoli_image = PhotoImage(file=f"{os.getcwd()}/images/broccoli_image.png")
+corn_image = PhotoImage(file=f"{os.getcwd()}/images/Corn_image.png")
+milk_image = PhotoImage(file=f"{os.getcwd()}/images/Milk_image.png")
+sugar_image = PhotoImage(file=f"{os.getcwd()}/images/Sugar_image.png")
 
-# Photos for the Third screen
-beetroot_image = PhotoImage(file="images/beetroot_image.png")
-cheese_image = PhotoImage(file="images\cheese_image.png")
-butter_image = PhotoImage(file="images/butter_image.png")
-honey_image = PhotoImage(file="images\honey_image.png")
-pepper_image = PhotoImage(file="images\pepper_image.png")
-coconutmilk_image = PhotoImage(file="images\coconutmilk_image.png")
+# Photos for the Fourth screen
+beetroot_image = PhotoImage(file=f"{os.getcwd()}/images/beetroot_image.png")
+cheese_image = PhotoImage(file=f"{os.getcwd()}/images/cheese_image.png")
+butter_image = PhotoImage(file=f"{os.getcwd()}/images/butter_image.png")
+honey_image = PhotoImage(file=f"{os.getcwd()}/images/honey_image.png")
+pepper_image = PhotoImage(file=f"{os.getcwd()}/images/pepper_image.png")
+coconutmilk_image = PhotoImage(file=f"{os.getcwd()}/images/coconutmilk_image.png")
 
-# Photos for the Third screen
-almonds_image = PhotoImage(file="images/almonds_image.png")
-coconutoil_image = PhotoImage(file="images\coconutoil_jmage.png")
-jaggery_image = PhotoImage(file="images\jaggery_image.png")
-coconutwater_image = PhotoImage(file="images\coconutwater_image.png")
-cocoapowder_image = PhotoImage(file="images\cocoapowder_jmage.png")
-curd_image = PhotoImage(file="images\curd_image.png")
+# Photos for the Fifth screen
+almonds_image = PhotoImage(file=f"{os.getcwd()}/images/almonds_image.png")
+coconutoil_image = PhotoImage(file=f"{os.getcwd()}/images/coconutoil_jmage.png")
+jaggery_image = PhotoImage(file=f"{os.getcwd()}/images/jaggery_image.png")
+coconutwater_image = PhotoImage(file=f"{os.getcwd()}/images/coconutwater_image.png")
+cocoapowder_image = PhotoImage(file=f"{os.getcwd()}/images/cocoapowder_jmage.png")
+curd_image = PhotoImage(file=f"{os.getcwd()}/images/curd_image.png")
 
-# Photos for the Third screen
-greentea_image = PhotoImage(file="images\greentea_image.png")
-jaggerypowder_image = PhotoImage(file="images\jaggerypowder_image.png")
-salt_image = PhotoImage(file="images\salt_image.png")
-tamarind_image = PhotoImage(file="images/tarmarind_image.png")
-peanutbutter_image = PhotoImage(file="images\peanutbutter_image.png")
-ghee_image = PhotoImage(file="images\ghee_image.png")
+# Photos for the Sixth screen
+greentea_image = PhotoImage(file=f"{os.getcwd()}/images/greentea_image.png")
+jaggerypowder_image = PhotoImage(file=f"{os.getcwd()}/images/jaggerypowder_image.png")
+salt_image = PhotoImage(file=f"{os.getcwd()}/images/salt_image.png")
+tamarind_image = PhotoImage(file=f"{os.getcwd()}/images/tarmarind_image.png")
+peanutbutter_image = PhotoImage(file=f"{os.getcwd()}/images/peanutbutter_image.png")
+ghee_image = PhotoImage(file=f"{os.getcwd()}/images/ghee_image.png")
 
 # Creating the Basic Frame
 frame = LabelFrame(root, borderwidth=0, highlightthickness=0)
